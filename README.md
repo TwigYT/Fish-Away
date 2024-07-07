@@ -1,4 +1,11 @@
 ![Logo](https://github.com/THG2009/Fish-Away/blob/d8d2396aeb13bbe4ca0c7171e1ac261e7323da21/minecraft_title_hd.png)
+
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/vyaQ048Z?label=Modrinth%20Downloads&color=%2315e466)](https://modrinth.com/mod/fish-away-forge)
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/TwigYT/Fish-Away/total?label=Github%20Downloads&color=%23fbfcfd)](https://github.com/TwigYT/Fish-Away)
+[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/TwigYT/Fish-Away?label=Github%20Issues)](https://github.com/TwigYT/Fish-Away/issues)
+![GitHub License](https://img.shields.io/github/license/TwigYT/Fish-Away)
+
+
 # Fish Away - Forge
 
 ### A general fishing/resource gathering mod for 1.20.1
@@ -23,10 +30,6 @@ Hopefully soon I will have a GitHub page where you can report bugs.
 ## Fabric?
 
 Once the next stable MCreator release comes out I will hopefully try to port the mod to fabric.
-
-## Credits
-
-Thanks to Blue Blob25 for the pear texture! Check out his [YouTube Channel](https://www.youtube.com/@BlueBlob256)
 
 ## Other Sources?
 
