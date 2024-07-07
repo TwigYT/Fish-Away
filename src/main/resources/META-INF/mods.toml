@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="fish_away"
+version="1.0.0"
+displayName="Fish Away"
+updateJSONURL="https://github.com/THG2009/Fish-Away/blob/8714671903ae7c0f9d005c049740ee0a38dcadbc/update.json"
+displayURL="https://modrinth.com/mod/fish-away-forge"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Twig"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.fish_away]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fish_away]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.fish_away]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

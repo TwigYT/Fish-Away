@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "fish_away:block/strawberry_plant"
+    },
+    "blockstate=1": {
+      "model": "fish_away:block/strawberry_plant_blockstate_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "fish_away:block/strawberry_plant_blockstate_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "fish_away:block/strawberry_plant_blockstate_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "fish_away:block/strawberry_plant_blockstate_blockstate_3"
+    }
+  }
+}

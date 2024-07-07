@@ -1,0 +1,101 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "StrawberryPlant",
+    "blockstateList": [
+      {
+        "texture": "strawberry_stage0",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "strawberry_stage0",
+        "renderType": 1,
+        "customModelName": "Cross model",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 2.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 4.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "strawberry_stage1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "strawberry_stage1",
+        "renderType": 1,
+        "customModelName": "Cross model",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 2.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "strawberry_stage2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "strawberry_stage2",
+        "renderType": 1,
+        "customModelName": "Cross model",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 2.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "strawberry_stage3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "strawberry_stage3",
+        "renderType": 1,
+        "customModelName": "Cross model",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": 2.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 14.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

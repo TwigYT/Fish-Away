@@ -1,0 +1,28 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:DiamondFishingRod"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.NETHERITE_INGOT"
+    },
+    "smithingInputTemplateStack": {
+      "value": ""
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:NetheriteFishingRod"
+    },
+    "name": "netherite_fishing_rod_recipe",
+    "namespace": "mod"
+  }
+}

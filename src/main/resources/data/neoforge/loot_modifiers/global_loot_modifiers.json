@@ -1,0 +1,7 @@
+{
+  "entries": [
+    "fish_away:fishing_junk_injector",
+    "fish_away:ship_wreck_supply_injector"
+  ],
+  "replace": false
+}

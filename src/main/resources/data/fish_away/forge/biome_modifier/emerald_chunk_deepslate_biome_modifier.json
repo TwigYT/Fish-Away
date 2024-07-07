@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "fish_away_forge:emerald_chunk_deepslate",
+  "step": "underground_ores"
+}

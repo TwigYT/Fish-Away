@@ -1,0 +1,40 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Fishing rod",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "golden_fishing_rod",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Golden Fishing Rod",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:FishAway"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 50,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.GOLD_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "GoldenFishingRodToolInHandTick"
+    }
+  }
+}

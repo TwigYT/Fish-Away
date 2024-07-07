@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "plains",
+  "features": "fish_away:strawberry_plant_feature",
+  "step": "vegetal_decoration"
+}

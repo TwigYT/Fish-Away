@@ -1,0 +1,16 @@
+{
+  "_fv": 60,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:DriftwoodScraps"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 100.0,
+      "name": "DriftwoodScrapsPropertiesValue"
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
+  }
+}

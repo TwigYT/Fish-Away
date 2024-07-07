@@ -1,0 +1,1174 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pear",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/item/PearItem.java",
+          "src/main/resources/assets/fish_away/models/item/pear.json"
+        ]
+      },
+      "path": "~/Items/food"
+    },
+    {
+      "name": "PearProperties",
+      "type": "itemextension",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pear_properties",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/food"
+    },
+    {
+      "name": "FishAway",
+      "type": "tab",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_away",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/item/CopperAxeItem.java",
+          "src/main/resources/assets/fish_away/models/item/copper_axe.json"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "DriftwoodScraps",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "driftwood_scraps",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away/models/item/driftwood_scraps.json",
+          "src/main/java/net/mcreator/fishaway/item/DriftwoodScrapsItem.java"
+        ]
+      },
+      "path": "~/Items/materials"
+    },
+    {
+      "name": "DriftwoodScrapsProperties",
+      "type": "itemextension",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "driftwood_scraps_properties",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/materials"
+    },
+    {
+      "name": "CopperFishingRod",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/item/CopperFishingRodItem.java",
+          "src/main/resources/assets/fish_away/models/item/copper_fishing_rod.json"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "FishingJunk",
+      "type": "loottable",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing_junk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/loot_tables/gameplay/fishing/junk.json"
+        ]
+      },
+      "path": "~/loot_tables/fishing"
+    },
+    {
+      "name": "FishingJunkInjector",
+      "type": "lootmodifier",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing_junk_injector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/loot_modifiers/fishing_junk_injector.json"
+        ]
+      },
+      "path": "~/loot_tables/fishing"
+    },
+    {
+      "name": "IronFishingRod",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/item/IronFishingRodItem.java",
+          "src/main/resources/assets/fish_away/models/item/iron_fishing_rod.json"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "GoldenFishingRod",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away/models/item/golden_fishing_rod.json",
+          "src/main/java/net/mcreator/fishaway/item/GoldenFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "DiamondFishingRod",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away/models/item/diamond_fishing_rod.json",
+          "src/main/java/net/mcreator/fishaway/item/DiamondFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "NetheriteFishingRod",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/item/NetheriteFishingRodItem.java",
+          "src/main/resources/assets/fish_away/models/item/netherite_fishing_rod.json"
+        ]
+      },
+      "path": "~/Items/tools/fishing_rods"
+    },
+    {
+      "name": "CopperFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/copper_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/fishing_rods"
+    },
+    {
+      "name": "IronFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/iron_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/fishing_rods"
+    },
+    {
+      "name": "GoldenFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/golden_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/fishing_rods"
+    },
+    {
+      "name": "DiamondFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/diamond_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/fishing_rods"
+    },
+    {
+      "name": "NetheriteFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/netherite_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/fishing_rods"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away/models/item/copper_pickaxe.json",
+          "src/main/java/net/mcreator/fishaway/item/CopperPickaxeItem.java"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away/models/item/copper_shovel.json",
+          "src/main/java/net/mcreator/fishaway/item/CopperShovelItem.java"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away/models/item/copper_hoe.json",
+          "src/main/java/net/mcreator/fishaway/item/CopperHoeItem.java"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/item/CopperSwordItem.java",
+          "src/main/resources/assets/fish_away/models/item/copper_sword.json"
+        ]
+      },
+      "path": "~/Items/tools/copper"
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/copper_sword_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/copper_shovel_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/copper_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/copper_hoe_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/copper_axe_recipe.json"
+        ]
+      },
+      "path": "~/recipes/tools/copper"
+    },
+    {
+      "name": "Root",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/advancements/root.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "UpgradingTheRod",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrading_the_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/advancements/upgrading_the_rod.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "NowIFeelLucky",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "now_i_feel_lucky",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/advancements/now_i_feel_lucky.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "RICHFisherman",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_fisherman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/advancements/rich_fisherman.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "VERYRICHFISHERMAN",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veryrichfisherman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/advancements/veryrichfisherman.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "GoldenFishingRodToolInHandTick",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_fishing_rod_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/procedures/GoldenFishingRodToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/items"
+    },
+    {
+      "name": "DiamondChunkStone",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_chunk_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/block/DiamondChunkStoneBlock.java",
+          "src/main/resources/assets/fish_away/models/item/diamond_chunk_stone.json",
+          "src/main/resources/assets/fish_away/blockstates/diamond_chunk_stone.json",
+          "src/main/resources/data/fish_away/worldgen/configured_feature/diamond_chunk_stone.json",
+          "src/main/resources/data/fish_away/neoforge/biome_modifier/diamond_chunk_stone_biome_modifier.json",
+          "src/main/resources/assets/fish_away/models/block/diamond_chunk_stone.json",
+          "src/main/resources/data/fish_away/worldgen/placed_feature/diamond_chunk_stone.json"
+        ]
+      },
+      "path": "~/blocks/ore"
+    },
+    {
+      "name": "DiamondChunkDeepslate",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_chunk_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/worldgen/configured_feature/diamond_chunk_deepslate.json",
+          "src/main/resources/assets/fish_away/blockstates/diamond_chunk_deepslate.json",
+          "src/main/resources/data/fish_away/worldgen/placed_feature/diamond_chunk_deepslate.json",
+          "src/main/resources/assets/fish_away/models/item/diamond_chunk_deepslate.json",
+          "src/main/resources/data/fish_away/neoforge/biome_modifier/diamond_chunk_deepslate_biome_modifier.json",
+          "src/main/resources/assets/fish_away/models/block/diamond_chunk_deepslate.json",
+          "src/main/java/net/mcreator/fishaway/block/DiamondChunkDeepslateBlock.java"
+        ]
+      },
+      "path": "~/blocks/ore"
+    },
+    {
+      "name": "EmeraldChunkStone",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_chunk_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/block/EmeraldChunkStoneBlock.java",
+          "src/main/resources/data/fish_away/worldgen/configured_feature/emerald_chunk_stone.json",
+          "src/main/resources/assets/fish_away/models/item/emerald_chunk_stone.json",
+          "src/main/resources/data/fish_away/worldgen/placed_feature/emerald_chunk_stone.json",
+          "src/main/resources/assets/fish_away/blockstates/emerald_chunk_stone.json",
+          "src/main/resources/data/fish_away/neoforge/biome_modifier/emerald_chunk_stone_biome_modifier.json",
+          "src/main/resources/assets/fish_away/models/block/emerald_chunk_stone.json"
+        ]
+      },
+      "path": "~/blocks/ore"
+    },
+    {
+      "name": "EmeraldChunkDeepslate",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_chunk_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/neoforge/biome_modifier/emerald_chunk_deepslate_biome_modifier.json",
+          "src/main/resources/assets/fish_away/models/item/emerald_chunk_deepslate.json",
+          "src/main/resources/data/fish_away/worldgen/placed_feature/emerald_chunk_deepslate.json",
+          "src/main/resources/data/fish_away/worldgen/configured_feature/emerald_chunk_deepslate.json",
+          "src/main/resources/assets/fish_away/models/block/emerald_chunk_deepslate.json",
+          "src/main/java/net/mcreator/fishaway/block/EmeraldChunkDeepslateBlock.java",
+          "src/main/resources/assets/fish_away/blockstates/emerald_chunk_deepslate.json"
+        ]
+      },
+      "path": "~/blocks/ore"
+    },
+    {
+      "name": "DiamondChunkStoneLoot",
+      "type": "loottable",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_chunk_stone_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/loot_tables/blocks/diamond_chunk_stone.json"
+        ]
+      },
+      "path": "~/loot_tables/blocks/ores"
+    },
+    {
+      "name": "DiamondChunkDeepslateLoot",
+      "type": "loottable",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_chunk_deepslate_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/loot_tables/blocks/diamond_chunk_deepslate.json"
+        ]
+      },
+      "path": "~/loot_tables/blocks/ores"
+    },
+    {
+      "name": "EmeraldChunkStoneLoot",
+      "type": "loottable",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_chunk_stone_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/loot_tables/blocks/emerald_chunk_stone.json"
+        ]
+      },
+      "path": "~/loot_tables/blocks/ores"
+    },
+    {
+      "name": "EmeraldChunkDeepslateLoot",
+      "type": "loottable",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_chunk_deepslate_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/loot_tables/blocks/emerald_chunk_deepslate.json"
+        ]
+      },
+      "path": "~/loot_tables/blocks/ores"
+    },
+    {
+      "name": "ItemsConfig",
+      "type": "config",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/configuration/ItemsConfigConfiguration.java"
+        ]
+      },
+      "path": "~/config"
+    },
+    {
+      "name": "DriftwoodScrapsPropertiesValue",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "driftwood_scraps_properties_value",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/fishaway/procedures/DriftwoodScrapsPropertiesValueProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/procedures/items"
+    },
+    {
+      "name": "DiamondChunkDeepslateRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_chunk_deepslate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/diamond_chunk_deepslate_recipe.json"
+        ]
+      },
+      "path": "~/recipes/blocks/ores"
+    },
+    {
+      "name": "DiamondChunkStoneRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_chunk_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/diamond_chunk_stone_recipe.json"
+        ]
+      },
+      "path": "~/recipes/blocks/ores"
+    },
+    {
+      "name": "EmeraldChunkDeepslateRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_chunk_deepslate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/emerald_chunk_deepslate_recipe.json"
+        ]
+      },
+      "path": "~/recipes/blocks/ores"
+    },
+    {
+      "name": "EmeraldChunkStoneRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_chunk_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/recipes/emerald_chunk_stone_recipe.json"
+        ]
+      },
+      "path": "~/recipes/blocks/ores"
+    },
+    {
+      "name": "Strawberry",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away/models/item/strawberry.json",
+          "src/main/java/net/mcreator/fishaway/item/StrawberryItem.java"
+        ]
+      },
+      "path": "~/Items/food"
+    },
+    {
+      "name": "FishAwayLoot",
+      "type": "loottable",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_away_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/loot_tables/chests/fish_away_loot.json"
+        ]
+      },
+      "path": "~/loot_tables/blocks/chests"
+    },
+    {
+      "name": "ShipWreckSupplyInjector",
+      "type": "lootmodifier",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ship_wreck_supply_injector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/loot_modifiers/ship_wreck_supply_injector.json"
+        ]
+      },
+      "path": "~/loot_tables/blocks/chests"
+    },
+    {
+      "name": "StrawberryPlantUpdateTick",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_plant_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/procedures/StrawberryPlantUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/blocks/plants"
+    },
+    {
+      "name": "StrawberryPlantBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_plant_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/procedures/StrawberryPlantBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/blocks/plants"
+    },
+    {
+      "name": "StrawberryRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/procedures/StrawberryRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/items"
+    },
+    {
+      "name": "StrawberryPlantOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_plant_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fishaway/procedures/StrawberryPlantOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/blocks/plants"
+    },
+    {
+      "name": "StrawberryPlant",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away/models/item/strawberry_plant.json",
+          "src/main/resources/assets/fish_away/models/block/strawberry_plant.json",
+          "src/main/java/net/mcreator/fishaway/block/StrawberryPlantBlock.java",
+          "src/main/resources/data/fish_away/loot_tables/blocks/strawberry_plant.json",
+          "src/main/resources/assets/fish_away/blockstates/strawberry_plant.json"
+        ]
+      },
+      "path": "~/blocks/plants"
+    },
+    {
+      "name": "StrawberryPlantBlockstate",
+      "type": "blockstates",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_plant_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fish_away/models/block/strawberry_plant_blockstate_blockstate_1.json",
+          "src/main/resources/assets/fish_away/models/block/strawberry_plant_blockstate_blockstate_2.json",
+          "src/main/resources/assets/fish_away/models/block/strawberry_plant_blockstate_blockstate_0.json",
+          "src/main/resources/assets/fish_away/models/block/strawberry_plant_blockstate_blockstate_3.json"
+        ]
+      },
+      "path": "~/blocks/plants"
+    },
+    {
+      "name": "StrawberryPlantFeature",
+      "type": "feature",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_plant_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fish_away/worldgen/configured_feature/strawberry_plant_feature.json",
+          "src/main/resources/data/fish_away/worldgen/placed_feature/strawberry_plant_feature.json",
+          "src/main/resources/data/fish_away/neoforge/biome_modifier/strawberry_plant_feature_biome_modifier.json"
+        ]
+      },
+      "path": "~/blocks/plants"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DiamondChunkDeepslate"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EmeraldChunkStone",
+      "~CUSTOM:DiamondChunkDeepslate",
+      "~CUSTOM:DiamondChunkStone"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:EmeraldChunkStone",
+      "~CUSTOM:DiamondChunkStone"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.fish_away_forge.strawberry": "Strawberry",
+      "item.fish_away.copper_fishing_rod": "Copper Fishing Rod",
+      "advancements.rich_fisherman.descr": "Obtain a Diamond Fishing Rod",
+      "block.fish_away_forge.emerald_chunk_deepslate": "Deepslate Emerald Chunk",
+      "item.fish_away_forge.copper_sword": "Copper Sword",
+      "block.fish_away_forge.strawberry_plant": "Strawberry Plant",
+      "item.fish_away_forge.golden_fishing_rod": "Golden Fishing Rod",
+      "item.fish_away.netherite_fishing_rod": "Netherite Fishing Rod",
+      "block.fish_away_forge.diamond_chunk_deepslate": "Deepslate Diamond Chunk",
+      "item.fish_away.diamond_fishing_rod": "Diamond Fishing Rod",
+      "advancements.upgrading_the_rod.descr": "Obtain an Iron Fishing Rod",
+      "advancements.root.title": "Fish Away",
+      "item.fish_away_forge.pear": "Pear",
+      "block.fish_away_forge.emerald_chunk_stone": "Emerald Chunk",
+      "item.fish_away_forge.copper_shovel": "Copper Shovel",
+      "block.fish_away.strawberry_plant": "Strawberry Plant",
+      "config.fish_away_forge.items_config": "items_config",
+      "advancements.veryrichfisherman.descr": "Obtain a Netherite Fishing Rod",
+      "advancements.now_i_feel_lucky.descr": "Obtain a Golden Fishing Rod",
+      "item.fish_away.copper_hoe": "Copper Hoe",
+      "block.fish_away.diamond_chunk_deepslate": "Deepslate Diamond Chunk",
+      "item.fish_away_forge.copper_hoe": "Copper Hoe",
+      "item.fish_away_forge.iron_fishing_rod": "Iron Fishing Rod",
+      "item.fish_away_forge.netherite_fishing_rod": "Netherite Fishing Rod",
+      "item_group.fish_away.fish_away": "Fish Away",
+      "item.fish_away.driftwood_scraps": "Driftwood Scraps",
+      "item.fish_away.golden_fishing_rod": "Golden Fishing Rod",
+      "item.fish_away_forge.diamond_fishing_rod": "Diamond Fishing Rod",
+      "block.fish_away.emerald_chunk_stone": "Emerald Chunk",
+      "item.fish_away.strawberry": "Strawberry",
+      "item.fish_away.pear": "Pear",
+      "item.fish_away.copper_pickaxe": "Copper Pickaxe",
+      "item.fish_away.copper_shovel": "Copper Shovel",
+      "block.fish_away_forge.diamond_chunk_stone": "Diamond Chunk",
+      "item_group.fish_away_forge.fish_away": "Fish Away",
+      "block.fish_away.emerald_chunk_deepslate": "Deepslate Emerald Chunk",
+      "advancements.now_i_feel_lucky.title": "Now I Feel Lucky",
+      "advancements.rich_fisherman.title": "RICH Fisherman",
+      "item.fish_away.copper_axe": "Copper Axe",
+      "item.fish_away_forge.copper_axe": "Copper Axe",
+      "advancements.veryrichfisherman.title": "VERY RICH FISHERMAN!",
+      "item.fish_away.iron_fishing_rod": "Iron Fishing Rod",
+      "item.fish_away_forge.copper_fishing_rod": "Copper Fishing Rod",
+      "advancements.upgrading_the_rod.title": "Upgrading The Rod",
+      "block.fish_away.diamond_chunk_stone": "Diamond Chunk",
+      "advancements.root.descr": "A new experience",
+      "item.fish_away.copper_sword": "Copper Sword",
+      "item.fish_away_forge.driftwood_scraps": "Driftwood Scraps",
+      "item.fish_away_forge.copper_pickaxe": "Copper Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "recipes",
+        "children": [
+          {
+            "name": "tools",
+            "children": [
+              {
+                "name": "fishing_rods",
+                "children": []
+              },
+              {
+                "name": "copper",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "blocks",
+            "children": [
+              {
+                "name": "ores",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "tools",
+            "children": [
+              {
+                "name": "fishing_rods",
+                "children": []
+              },
+              {
+                "name": "bow",
+                "children": []
+              },
+              {
+                "name": "copper",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "materials",
+            "children": []
+          },
+          {
+            "name": "food",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "blocks",
+        "children": [
+          {
+            "name": "ore",
+            "children": []
+          },
+          {
+            "name": "driftwood",
+            "children": []
+          },
+          {
+            "name": "plants",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "biomes",
+        "children": []
+      },
+      {
+        "name": "achievements",
+        "children": []
+      },
+      {
+        "name": "loot_tables",
+        "children": [
+          {
+            "name": "fishing",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": [
+              {
+                "name": "ores",
+                "children": []
+              },
+              {
+                "name": "chests",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "procedures",
+        "children": [
+          {
+            "name": "blocks",
+            "children": [
+              {
+                "name": "plants",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "armor",
+            "children": []
+          },
+          {
+            "name": "items",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "tags",
+        "children": []
+      },
+      {
+        "name": "armor",
+        "children": [
+          {
+            "name": "download_hats",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "config",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "fish_away",
+    "modName": "Fish Away",
+    "version": "1.0.0",
+    "author": "Twig",
+    "websiteURL": "https://modrinth.com/mod/fish-away-forge",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "updateURL": "https://github.com/THG2009/Fish-Away/blob/8714671903ae7c0f9d005c049740ee0a38dcadbc/update.json",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "neoforge-1.20.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fishaway"
+  },
+  "mcreatorVersion": 202400118518
+}

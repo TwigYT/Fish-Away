@@ -1,0 +1,10 @@
+{
+  "type": "fish_away:fish_away_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:gameplay/fishing/junk"
+    }
+  ],
+  "lootTable": "fish_away:gameplay/fishing/junk"
+}

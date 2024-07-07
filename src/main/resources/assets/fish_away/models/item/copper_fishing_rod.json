@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "fish_away:item/copper_fishing_rod"
+  }
+}

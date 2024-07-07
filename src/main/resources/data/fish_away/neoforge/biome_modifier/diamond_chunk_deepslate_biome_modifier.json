@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "fish_away:diamond_chunk_deepslate",
+  "step": "underground_ores"
+}

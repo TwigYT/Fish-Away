@@ -1,0 +1,31 @@
+{
+  "_fv": 60,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "burn times",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 100.0,
+            "textDefault": "",
+            "comment": "the burn time of driftwood scraps (in ticks)",
+            "vardisplay": "driftwood_scraps",
+            "varname": "driftwood_scraps_burn_time",
+            "enablecomment": true
+          }
+        ]
+      }
+    ],
+    "file": "items_config",
+    "configType": 0
+  }
+}

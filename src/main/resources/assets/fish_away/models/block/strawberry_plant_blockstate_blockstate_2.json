@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "fish_away:block/strawberry_stage2",
+    "particle": "fish_away:block/strawberry_stage2"
+  },
+  "render_type": "cutout"
+}

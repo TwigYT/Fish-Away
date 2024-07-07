@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fish_away:emerald_chunk_stone",
+    "fish_away:diamond_chunk_deepslate",
+    "fish_away:diamond_chunk_stone"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "fish_away:fish_away_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/shipwreck_supply"
+    }
+  ],
+  "lootTable": "fish_away:chests/fish_away_loot"
+}
